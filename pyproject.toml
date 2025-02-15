@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "soccer"
+version = "0.1.0"
+description = ""
+authors = ["RR"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+socceraction = "^1.5.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
